@@ -1,0 +1,90 @@
+:root {
+  --primary: #0c3c60;
+  --black: #000;
+  --light-black: #666;
+  --light-gray: #cfcfcf;
+  --blue: #206bef;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  color: var(--black);
+  font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  outline: none;
+  background: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+input {
+  border: none;
+  box-shadow: none;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,72 @@
+.card {
+  padding: 25px;
+  box-shadow: 0px 4px 10px #cfcfcf;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemImg {
+  width: 60px;
+  height: 60px;
+  background-color: #cfcfcf;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemText {
+  text-align: right;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.itemPrice {
+  margin-top: 15px;
+}
+
+.line {
+  margin: 25px 0;
+  width: 100%;
+  background: var(--light-gray);
+  height: 1px;
+}
+
+.fullPrices,
+.totalWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fullPrices {
+  font-size: 14px;
+}
+
+.fullPricesTitle,
+.totalTitle {
+  color: var(--light-black);
+  text-transform: uppercase;
+}
+
+.fullPricesTitle,
+.fullPricesText {
+  line-height: 21px;
+}
+
+.totalWrapper {
+  margin-top: 13px;
+}
+
+.totalText {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--blue);
+}

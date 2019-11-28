@@ -1,0 +1,19 @@
+.root {
+  padding-top: 25px;
+  padding-bottom: 320px;
+}
+
+.titleH1Wrapper {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.titleH2Wrapper {
+  margin-bottom: 25px;
+}
+
+.appWrapper {
+  max-width: 485px;
+  margin: 0 auto;
+}

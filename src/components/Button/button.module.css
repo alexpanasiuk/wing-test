@@ -1,0 +1,17 @@
+.button {
+  max-width: 230px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 13px 0 14px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active {
+  background: #eef5ff;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}

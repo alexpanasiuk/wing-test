@@ -1,0 +1,18 @@
+.title {
+  font-weight: bold;
+}
+
+.titleH1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.titleH2 {
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.titleH3 {
+  font-size: 22px;
+  line-height: 33px;
+}

@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #666;
+  position: relative;
+}
+
+.backWrapper {
+  width: 50%;
+  display: flex;
+  padding-right: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.backArrow {
+  margin-top: -8px;
+  cursor: pointer;
+}
+
+.backText {
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.logoWrapper {
+  width: 100px;
+}
+
+.secureWrapper {
+  width: 50%;
+}
+
+.secure {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+}
+
+.secure > * {
+  cursor: pointer;
+}
