@@ -44,3 +44,9 @@
 .secure > * {
   cursor: pointer;
 }
+
+@media screen and (max-width: 568px) {
+  .secure {
+    display: none;
+  }
+}

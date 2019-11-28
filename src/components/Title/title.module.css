@@ -16,3 +16,10 @@
   font-size: 22px;
   line-height: 33px;
 }
+
+@media screen and (max-width: 568px) {
+  .titleH1 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}

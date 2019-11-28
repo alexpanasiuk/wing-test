@@ -8,15 +8,17 @@
   margin-top: 25px;
 }
 
+.buttonWrapper > button:nth-child(1) {
+  margin-right: 10px;
+}
+
+.buttonWrapper > button:nth-child(2) {
+  margin-left: 10px;
+}
+
 .firstText,
 .secondText {
   line-height: 24px;
   font-size: 16px;
   margin-top: 25px;
-}
-
-.firstText {
-}
-
-.secondText {
 }

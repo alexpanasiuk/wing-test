@@ -8,6 +8,14 @@
   margin-top: 25px;
 }
 
+.buttonWrapper > button:nth-child(1) {
+  margin-right: 10px;
+}
+
+.buttonWrapper > button:nth-child(2) {
+  margin-left: 10px;
+}
+
 .textWrapper {
   margin-top: 50px;
   text-align: center;

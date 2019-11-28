@@ -14,11 +14,13 @@
 .itemImg {
   width: 60px;
   height: 60px;
+  flex-shrink: 0;
   background-color: #cfcfcf;
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 20px;
 }
 
 .itemText {

@@ -29,7 +29,7 @@ const OrderCard = ({ data }) => {
     items.map(item => {
       const { title, img, amount, price } = item;
       return (
-        <div className={css.item}>
+        <div className={css.item} key={title + img}>
           <div
             className={css.itemImg}
             style={{ backgroundImage: `url(${img})` }}
